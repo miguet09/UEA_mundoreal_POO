@@ -1,0 +1,36 @@
+# Programa para calcular el área de un círculo
+# Programa solicita al usuario que ingrese el radio de un círculo,
+# Calcula y muestra el área del círculo usando la fórmula: área = π * radio^2.
+
+import math
+
+def calcular_area_circulo(radio):
+    """
+    Calcula el área de un círculo dado su radio.
+
+    :param radio: El radio del círculo.
+    :return: El área del círculo.
+    """
+    # Verificar si el radio es válido (mayor que cero)
+    if radio <= 0:
+        return "El radio debe ser un número positivo."
+
+    # Calcular el área usando la fórmula matemática
+    area = math.pi * radio ** 2
+    return area
+
+def main():
+    """
+    Función principal del programa. Solicita al usuario el radio y muestra el área calculada.
+    """
+    # Solicitar al usuario que ingrese el radio del círculo
+    radio = float(input("Ingrese el radio del círculo: "))
+
+    # Calcular el área del círculo
+    area = calcular_area_circulo(radio)
+
+    # Mostrar el área del círculo
+    print(f"El área del círculo con radio {radio} es: {area}")
+
+if __name__ == "__main__":
+    main()
