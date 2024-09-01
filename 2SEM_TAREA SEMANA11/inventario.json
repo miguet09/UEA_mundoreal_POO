@@ -1,0 +1,38 @@
+{
+    "005": {
+        "id_producto": "005",
+        "nombre": "jjs",
+        "cantidad": 152,
+        "precio": 152.25
+    },
+    "02_A": {
+        "id_producto": "02_A",
+        "nombre": "ARROZ_2LB",
+        "cantidad": 100,
+        "precio": 0.6
+    },
+    "001_A": {
+        "id_producto": "001_A",
+        "nombre": "ARROZ KILO",
+        "cantidad": 10,
+        "precio": 2.5
+    },
+    "002_ARROZ": {
+        "id_producto": "002_ARROZ",
+        "nombre": "ARROZ LIBRAS",
+        "cantidad": 100,
+        "precio": 0.6
+    },
+    "003_ARROZ": {
+        "id_producto": "003_ARROZ",
+        "nombre": "ARROZ QUINTAL",
+        "cantidad": 12,
+        "precio": 46.0
+    },
+    "001_AZUCAR": {
+        "id_producto": "001_AZUCAR",
+        "nombre": "AUCAR KILO",
+        "cantidad": 24,
+        "precio": 2.2
+    }
+}
