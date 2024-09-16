@@ -34,5 +34,11 @@
         "nombre": "AUCAR KILO",
         "cantidad": 24,
         "precio": 2.2
+    },
+    "454545454544": {
+        "id_producto": "454545454544",
+        "nombre": "45454",
+        "cantidad": 44454,
+        "precio": 4545454.0
     }
 }
